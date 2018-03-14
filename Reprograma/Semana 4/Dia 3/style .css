@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: #63458a;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+    margin-right: 0;
+    }
+.lista ul {
+    display: none;
+}
+@media (min-width: 1020px) {
+    .lista ul {
+        display: flex;
+        text-align: end;
+        list-style: none;
+        color: white;
+        word-spacing: 40px;
+        background-color: none;
+    }
+
+}
+.logo {
+    width: 150px;
+    margin-left: 10px;
+}
+nav > a img  {
+padding: 10px;
+width: 50px;
+height: 40px;
+margin-top: 0;
+margin-right: 60px;
+  
+}
+@media (min-width: 1020px) {
+    nav > a img {
+        display: none;
+    }
+}
+header {
+    background-image: url(./img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 220px;
+    margin-top: 0;
+    padding: 40px;
+}
+@media (min-width: 1020px) {
+     header { 
+         height: 400px;
+     }
+}
+header h1 {
+    color: white;
+    width: 220px;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Montserrat', 'Roboto+Slab', 'Roboto';
+    margin-left: 35px;
+}
+@media (min-width: 1020px) {
+    header h1 {
+        width: 500px;
+        margin-top: 180px;
+        font-size: 25px;
+        margin-left: 100px;
+    }
+}
+header p {
+    color: white;
+    width: 220px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Montserrat', 'Roboto+Slab', 'Roboto';
+    margin-left: 35px;
+  
+}
+@media (min-width: 1020px) {
+    header p {
+        width: 500px;
+        font-size: 16px;
+        height: 400px;
+        margin-left: 100px;
+    }
+}
+header a , .lista-mulheres > a , .criadoras > a  {
+    text-align: center;
+    background-color: #b288c0;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    margin-left: 82px;
+    padding: 8px;
+    font-size: 12px;
+    margin-left: 70px;
+
+}
+.mulher-forte {
+    background-color: #7e5a9b;
+    padding: 10px;
+
+}
+.mulher-forte img {
+    width: 100px;
+    height: 120 px;
+    margin-left: 140px;
+    margin-top: 30px;
+    
+}
+.mulher-forte p{
+    width: 280px;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    margin-top: 0;
+    font-family: 'Montserrat', 'Roboto+Slab', 'Roboto';
+}
+.lista-mulheres h2 {
+    color: #63458a;
+}
+.grid img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.grid div {
+    max-width: 100px;
+    padding: 10px;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 25px; 
+}
+.grid p {
+    color: #b288c0;
+}
+.lista-mulheres {
+    background-color: #ddd4dd;
+    padding: 30px;
+}
+.imagens-alunas img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+.imagens-alunas {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 25px;
+
+     margin-bottom: 30px;
+
+}
+.criadoras {
+    background-color: #63458a;
+    padding: 20px;
+}
+.criadoras h2 {
+    color: white;
+    text-align: center;
+}
+
+
+footer ul {
+    list-style: none;
+    color: white;
+
+}
+.footer-centro, .footer-canto {
+    background-color: rgba(7, 7, 7, 0.83);
+    z-index: 1;
+}
+
+.footer-centro p {
+    width: 120px;
+    color: white;
+    margin-left: 110px;
+
+
+}
+.footer-canto {
+    display: flex;
+    justify-content: center;
+}
+.footer-canto img {
+    width: 20px;
+    height: 35px;
+}
+.footer-canto p{
+    color: white;
+    font-weight: bold;
+}
+.fim {
+    background-color: rgba(7, 7, 7, 0.83);
+    color: white;
+    padding: 15px;
+    background-position: center;
+
+}
+footer {
+    display: block;
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+   
+}
