@@ -24,6 +24,9 @@ nav {
         background-color: none;
     }
 
+    .lista > ul > li {
+        margin-left: 120px;
+    }
 }
 .logo {
     width: 150px;
@@ -84,8 +87,8 @@ header p {
     header p {
         width: 500px;
         font-size: 16px;
-        height: 400px;
         margin-left: 100px;
+        margin-bottom: 50px;
     }
 }
 header a , .lista-mulheres > a , .criadoras > a  {
@@ -100,6 +103,17 @@ header a , .lista-mulheres > a , .criadoras > a  {
     margin-left: 70px;
 
 }
+@media (min-width: 1020px) {
+    .lista-mulheres > a , .criadoras > a {
+        margin-left: 600px;
+    }
+}
+@media (min-width: 1020px) {
+    header a {
+        margin-left: 300px;
+    }
+}
+
 .mulher-forte {
     background-color: #7e5a9b;
     padding: 10px;
@@ -112,6 +126,13 @@ header a , .lista-mulheres > a , .criadoras > a  {
     margin-top: 30px;
     
 }
+@media (min-width: 1020px) {
+    .mulher-forte img {
+        width: 250px;
+        margin-left: 550px;
+
+    }
+}
 .mulher-forte p{
     width: 280px;
     text-align: center;
@@ -120,18 +141,41 @@ header a , .lista-mulheres > a , .criadoras > a  {
     margin-top: 0;
     font-family: 'Montserrat', 'Roboto+Slab', 'Roboto';
 }
+@media (min-width: 1020px) {
+    .mulher-forte p {
+    margin-left: 350px;
+    font-weight: bold ;
+    width: 600px;
+    }
+}
 .lista-mulheres h2 {
     color: #63458a;
+}
+@media (min-width: 1020px) {
+    .lista-mulheres h2 {
+        margin-left: 500px;
+    }
 }
 .grid img {
     width: 100px;
     height: 100px;
     border-radius: 5px;
 }
+@media (min-width: 1020px) {
+    .grid img {
+        width: 180px;
+        height: 180px;
+    }
+}
 
 .grid div {
     max-width: 100px;
     padding: 10px;
+}
+@media (min-width: 1020px) {
+    .grid div { 
+        padding: 80px;
+}  
 }
 .grid {
     display: flex;
@@ -141,6 +185,12 @@ header a , .lista-mulheres > a , .criadoras > a  {
     justify-content: space-evenly;
     margin-left: 25px; 
 }
+@media (min-width: 1020px) {
+    .grid {
+        margin-left: 80px;
+    }
+}
+
 .grid p {
     color: #b288c0;
 }
@@ -155,6 +205,13 @@ header a , .lista-mulheres > a , .criadoras > a  {
     margin-bottom: 5px;
 
 }
+@media (min-width: 1020px) {
+    .imagens-alunas img {
+        width: 150px;
+        height: 150px;
+
+    }
+}
 .imagens-alunas {
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +223,11 @@ header a , .lista-mulheres > a , .criadoras > a  {
      margin-bottom: 30px;
 
 }
+@media (min-width: 1020px) {
+    .imagens-alunas {
+        margin-left: 130px;
+    }
+}
 .criadoras {
     background-color: #63458a;
     padding: 20px;
@@ -174,6 +236,7 @@ header a , .lista-mulheres > a , .criadoras > a  {
     color: white;
     text-align: center;
 }
+
 
 
 footer ul {
@@ -192,6 +255,11 @@ footer ul {
     margin-left: 110px;
 
 
+}
+@media (min-width: 1020px) {
+    .footer-centro p {
+        margin-left: 600px;
+    }
 }
 .footer-canto {
     display: flex;
